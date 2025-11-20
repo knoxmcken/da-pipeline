@@ -64,6 +64,10 @@ To facilitate development and collaboration, the following essential documents h
 *   **`docs/DEVELOPMENT.md`**: Offers an in-depth guide for developers, detailing the project architecture, how to add new commands, configuration management, and the release process.
 *   **`pyproject.toml`**: Configures the build system, project metadata, dependencies, CLI entry point, and integrates tools like `ruff` and `pytest`.
 
+## Gemini Agent Instructions
+
+After every commit, the Gemini agent will review relevant documentation (e.g., `CHANGELOG.md`, `DEVELOPMENT.md`, `FEATURES.md`, `CONTRIBUTING.md`) to ensure consistency and suggest any necessary updates or improvements.
+
 ## Current Version
 
 The current version of the project is `0.1.0`.
