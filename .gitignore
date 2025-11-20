@@ -3,3 +3,6 @@ init.ps1
 
 # Ignore files containing sensitive information
 .env
+
+# Ignore generated project directories
+projects/
