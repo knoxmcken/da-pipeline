@@ -6,3 +6,10 @@ init.ps1
 
 # Ignore generated project directories
 projects/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
