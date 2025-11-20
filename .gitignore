@@ -1,2 +1,5 @@
 init.sh
 init.ps1
+
+# Ignore files containing sensitive information
+.env
