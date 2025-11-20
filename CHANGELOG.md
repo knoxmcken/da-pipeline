@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - 2025-11-20
 
 ### Added
+- Implemented `dap new <project-name>` command for project scaffolding.
 - Initial project structure with `pyproject.toml`, `dap/` directory, and basic CLI setup.
 - `docs/FEATURES.md` outlining proposed application features.
 - `CONTRIBUTING.md` for contribution guidelines.

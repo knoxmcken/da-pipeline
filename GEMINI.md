@@ -35,7 +35,7 @@ da-pipeline/
 │   ├── commands/
 │   │   ├── __init__.py
 │   │   ├── data.py (planned)
-│   │   ├── project.py (planned)
+│   │   ├── project.py
 │   │   └── pipeline.py (planned)
 │   └── utils/
 │       ├── __init__.py
@@ -46,7 +46,7 @@ da-pipeline/
 │   └── commands/
 │       ├── __init__.py
 │       ├── test_data.py (planned)
-│       ├── test_project.py (planned)
+│       ├── test_project.py
 │       └── test_pipeline.py (planned)
 └── docs/
     ├── FEATURES.md

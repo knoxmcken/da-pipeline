@@ -4,7 +4,7 @@ Based on the description "CLI App for Managing Data Analytics Projects", here ar
 
 ## Core Features (Initial Implementation)
 
-1.  **Project Scaffolding:**
+1.  **Project Scaffolding:** `[DONE]`
     *   `dap new <project-name>`: Creates a new project with a standardized directory structure (e.g., `data/`, `notebooks/`, `src/`, `config/`).
 
 2.  **Data Management:**
