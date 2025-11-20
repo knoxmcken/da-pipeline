@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dap"
+version = "0.1.0"
+description = "A CLI app for managing data analytics projects"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" },
+]
+license = { text = "MIT" } # Example license, choose appropriate one
+requires-python = ">=3.8"
+dependencies = [
+    "click", # For building the CLI
+    # Add other core dependencies here
+]
+
+[project.scripts]
+dap = "dap.cli:main" # Entry point for the CLI command
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dap*"]
+
+[tool.ruff]
+# Enable all 'E' (Error) and 'W' (Warning) codes by default.
+select = ["E", "W", "F", "I"]
+ignore = [
+    "E501", # Line too long, handled by formatter
+]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+line-length = 88
+target-version = "py38"
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"] # Ignore unused imports in __init__.py
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "--strict-markers --strict-paths"
+testpaths = ["tests"]
